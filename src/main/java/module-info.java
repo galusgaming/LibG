@@ -9,6 +9,7 @@ module pl.galusgaming.bibliotekagraficzna {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires java.sql;
 
     opens pl.galusgaming.bibliotekagraficzna to javafx.fxml;
     exports pl.galusgaming.bibliotekagraficzna;
